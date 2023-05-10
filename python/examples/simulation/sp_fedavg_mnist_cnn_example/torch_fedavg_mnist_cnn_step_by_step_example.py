@@ -1,6 +1,11 @@
-import fedml
-from fedml import FedMLRunner
+# import fedml
 
+# import os
+# import sys
+# path=os.path.abspath('../../..')
+# sys.path.append(path)
+import fedml 
+from fedml import FedMLRunner
 if __name__ == "__main__":
     # init FedML framework
     args = fedml.init()
