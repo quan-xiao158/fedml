@@ -1,2 +1,1 @@
-python torch_fedavg_mnist_cnn_step_by_step_example.py --cf fedml_config.yaml
 python torch_fedbabu_mnist_cnn_step_by_step_example.py --cf fedml_config.yaml

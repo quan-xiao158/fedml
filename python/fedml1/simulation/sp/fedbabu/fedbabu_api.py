@@ -94,7 +94,7 @@ class FedBabuAPI(object):
                     self.train_data_local_dict[client_idx],
                     self.test_data_local_dict[client_idx],
                     self.train_data_local_num_dict[client_idx],
-                )#回去仔细看一下，函数功能是什么，具体怎么实现，看联系，
+                )
                 ''' 在上面初始化clint的时候是指定前五个客户端初始化的，这些客户端并不是被选择的，通过这个for循环将初始化好的clint对象里的成员替换成被选中的'''
                 # train on new dataset
                 mlops.event("train", event_started=True, event_value="{}_{}".format(str(round_idx), str(idx)))#用于记录事件和日志
