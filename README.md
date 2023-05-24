@@ -41,5 +41,3 @@
 * **centralized**: Some centralized trainer code examples for benchmarking purposes.
 
 * **utils**: Common utilities shared by other modules.
-
-contact us:	wechat: 
